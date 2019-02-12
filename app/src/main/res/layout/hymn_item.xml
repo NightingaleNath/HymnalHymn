@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/btnLogo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/tvHymn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Hymns"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"/>
+
+
+    <ImageView
+        android:id="@+id/btnArrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/ic_keyboard" />
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:id="@+id/tvStanza"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:id="@+id/tvId"
+        android:visibility="invisible"/>
+
+</LinearLayout>
